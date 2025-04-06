@@ -10,7 +10,7 @@
         <string>/Users/flippackstation5/python_scripts/nolonger_bot/find_orders.py</string>
     </array>
     <key>StartInterval</key>
-    <integer>3600</integer>
+    <integer>7200</integer>
     <key>StandardErrorPath</key>
     <string>/Users/flippackstation5/python_scripts/nolonger_bot/logs/find_orders.err</string>
     <key>StandardOutPath</key>
