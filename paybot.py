@@ -76,9 +76,9 @@ def paybot():
         time.sleep(4)
 
         # close link verification popup
-        link_verification_popup_el = driver.find_element(By.CLASS_NAME, "LinkVerificationHeader-cancelButton")
-        link_verification_popup_el.click()
-        time.sleep(3)
+        # link_verification_popup_el = driver.find_element(By.CLASS_NAME, "LinkVerificationHeader-cancelButton")
+        # link_verification_popup_el.click()
+        # time.sleep(3)
 
         print('filling name in stripe form')
         stripe_name_el = driver.find_element(By.NAME, 'name')
