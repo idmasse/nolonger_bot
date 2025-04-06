@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.paybot.script</string>
+    <string>com.nolongerbot</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/ianm/code/scripts/paybot/pbvenv/bin/python</string>
-        <string>/Users/ianm/code/scripts/paybot/find_orders.py</string>
+        <string>/Users/flippackstation5/python_scripts/nolonger_bot/venv/bin/python3</string>
+        <string>/Users/flippackstation5/python_scripts/nolonger_bot/find_orders.py</string>
     </array>
     <key>StartInterval</key>
     <integer>3600</integer>
     <key>StandardErrorPath</key>
-    <string>/Users/ianm/code/scripts/paybot/find_orders.err</string>
+    <string>/Users/flippackstation5/python_scripts/nolonger_bot/logs/find_orders.err</string>
     <key>StandardOutPath</key>
-    <string>/Users/ianm/code/scripts/paybot/find_orders.out</string>
+    <string>/Users/flippackstation5/python_scripts/nolonger_bot/logs/find_orders.out</string>
 </dict>
 </plist>
