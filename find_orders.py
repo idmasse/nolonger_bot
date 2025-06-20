@@ -1,19 +1,7 @@
-import requests
-import logging
-from utils.email_utils import send_email
 from paybot import paybot
-import os
-from dotenv import load_dotenv
+from config import *
 
-load_dotenv()
-
-url = os.getenv('FIND_ORDERS_URL')
-
-logging.basicConfig(
-    filename='/Users/flippackstation5/Python_Scripts/nolonger_bot/logs/find_orders.log',
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
-)
+url = FIND_ORDERS_URL
 
 def find_orders():
     try:
