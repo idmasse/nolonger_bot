@@ -12,8 +12,8 @@
     <key>StartInterval</key>
     <integer>7200</integer>
     <key>StandardErrorPath</key>
-    <string>/Users/flippackstation5/python_scripts/nolonger_bot/logs/find_orders.err</string>
+    <string>/Users/flippackstation5/python_scripts/nolonger_bot/logs/find_orders.err.log</string>
     <key>StandardOutPath</key>
-    <string>/Users/flippackstation5/python_scripts/nolonger_bot/logs/find_orders.out</string>
+    <string>/Users/flippackstation5/python_scripts/nolonger_bot/logs/find_orders.out.log</string>
 </dict>
 </plist>
